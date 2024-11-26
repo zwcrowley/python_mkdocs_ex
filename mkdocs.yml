@@ -1,0 +1,14 @@
+site_name: My python Data Project
+nav:
+  - Home: index.md
+  - Functions: functions.md
+  - About: about.md
+
+repo_name: zwcrowley/python_mkdocs_ex
+repo_url: https://github.com/zwcrowley/python_mkdocs_ex
+
+theme: mkdocs
+
+plugins:
+- mkdocstrings:
+    default_handler: python
